@@ -7,5 +7,6 @@ chmod -R g=rwx /var/www && \
 chmod -R o=r /var/www 
  
 COPY index.php .
+COPY count_user.php .
 
 EXPOSE 80
